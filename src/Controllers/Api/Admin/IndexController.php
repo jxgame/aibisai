@@ -18,6 +18,7 @@ class IndexController extends Controller
 	/** init*/
     public function init(Request $request)
     {
-		return $this->ok("This is Init");
+      	$res = isChinaMobile('15391001100');
+		return $this->ok("This is Init ".$res);
 	}
 }

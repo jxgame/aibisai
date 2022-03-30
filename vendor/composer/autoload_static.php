@@ -6,6 +6,10 @@ namespace Composer\Autoload;
 
 class ComposerStaticInit69270910b1bfa7caa7930cc035a3f46d
 {
+    public static $files = array (
+        '5db22e546d0a033703ec493690ffd257' => __DIR__ . '/../..' . '/src/Helpers.php',
+    );
+
     public static $prefixLengthsPsr4 = array (
         'J' => 
         array (
@@ -22,6 +26,7 @@ class ComposerStaticInit69270910b1bfa7caa7930cc035a3f46d
 
     public static $classMap = array (
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
+        'Jxgame\\Aibisai\\Controllers\\Api\\Admin\\IndexController' => __DIR__ . '/../..' . '/src/Controllers/Api/Admin/IndexController.php',
         'Jxgame\\Aibisai\\Controllers\\Controller' => __DIR__ . '/../..' . '/src/Controllers/Controller.php',
     );
 

@@ -7,5 +7,6 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
+    'Jxgame\\Aibisai\\Controllers\\Api\\Admin\\IndexController' => $baseDir . '/src/Controllers/Api/Admin/IndexController.php',
     'Jxgame\\Aibisai\\Controllers\\Controller' => $baseDir . '/src/Controllers/Controller.php',
 );

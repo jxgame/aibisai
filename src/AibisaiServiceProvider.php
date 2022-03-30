@@ -27,9 +27,7 @@ class AibisaiServiceProvider extends ServiceProvider
     public function boot()
     {
       	//加载路由文件
-		//$this->loadRoutesFrom(__DIR__.'/routes/route.php')
-   // $this->package('jxgame/aibisai');  
-    include __DIR__.'/routes/route.php'; 
+		include __DIR__.'/routes/route.php';  
       
      //   $this->loadViewsFrom(__DIR__ . '/views', 'Aibisai'); // 视图目录指定 
         $this->publishes([ 

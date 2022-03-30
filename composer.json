@@ -10,6 +10,9 @@
         "psr-4": { 
             "Jxgame\\Aibisai\\": "src/" 
         },
+        "files":[
+            "src/Helpers.php"
+        ],
       "classmap": [ 
              "src/Migrations",
              "src/Controllers" 
