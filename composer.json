@@ -1,0 +1,15 @@
+{ 
+    "name": "jxgame/aibisai-for-laravel", 
+    "authors": [ 
+        { 
+            "name": "jxgame", 
+            "email": "jxgame@163.com" 
+        } 
+    ], 
+    "autoload": { 
+        "psr-4": { 
+            "Jxgame\\Aibisai\\": "src/" 
+        } 
+    }, 
+    "require": {} 
+}
